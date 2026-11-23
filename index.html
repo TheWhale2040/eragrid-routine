@@ -641,6 +641,7 @@ ${s.city === "custom" ? `<div class="grid2"><div class="f"><label>خط العر�
 <div class="f"><label>الصوت</label><div class="opts">${opt("sound", true, "مفعّل")}${opt("sound", false, "صامت")}</div></div></section>
 <section class="card"><h2>نسخة احتياطية</h2><p class="sub" style="margin-bottom:10px">بياناتك تنحفظ في هذا المتصفح. لو غيّرت الجهاز أو مسحت بيانات المتصفح تضيع، فنزّل نسخة احتياطية بين فترة وفترة.${memoryOnly ? ' <b class="late">تنبيه: المتصفح يمنع الحفظ الآن، فالبيانات ما راح تبقى.</b>' : ""}</p>
 <div class="row" style="flex-wrap:wrap"><button class="btn" data-act="export">نزّل نسخة احتياطية</button><button class="btn ghost" data-act="import">استرجع من نسخة</button><button class="btn danger" data-act="reset">مسح كل شي</button></div><input type="file" id="impf" accept="application/json" hidden></section>
+<section class="card"><h2>من إيراقريد</h2><p class="sub" style="margin-bottom:10px">نسوي ملفات إكسل بالعربي للمهام والمخزون والأقساط، وفي المتجر قالب مصروفات مجاني تجربه.</p><a class="btn block" style="display:block;text-align:center;text-decoration:none" href="https://salla.sa/eraxis" target="_blank" rel="noopener">افتح المتجر</a></section>
 <section class="card"><h2>عن التطبيق</h2><p class="sub">لوحة الروتين · الإصدار ${APP_VERSION} · إيراقريد<br>يشتغل بدون إنترنت، وبدون حساب، وما يرسل شي لأي جهة. مواقيت الصلاة والتاريخ الهجري تُحسب على جهازك.</p></section>`;
 }
 const views = { today: viewToday, tasks: viewTasks, habits: viewHabits, cal: viewCal, stats: viewStats, focus: viewFocus, settings: viewSettings };
